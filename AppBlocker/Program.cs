@@ -16,7 +16,6 @@ namespace AppBlocker
             Process[] localAll = RemoveDuplicates(Process.GetProcesses());
             foreach (var process in localAll)
             {
-                // Used for formatting
                 string pidString = process.Id.ToString();
                 string output = new string(Convert.ToChar(" "), 4 - pidString.Length);
                 Console.WriteLine(process.Id + output + " | " + process.ProcessName);
