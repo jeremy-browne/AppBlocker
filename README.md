@@ -1,5 +1,5 @@
 # AppBlocker
-Blocks a predefined list of ads
+Blocks a predefined list of apps
 
 ## The plan
 - PC requests list of blocked apps
